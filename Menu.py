@@ -1,6 +1,7 @@
 class Menu:
     def __init__(self):
         self.schools = []
+        self.users = []
 
     def print_menu(self):
         pass
