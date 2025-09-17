@@ -13,5 +13,10 @@ class Class:
             self.classrooms.append(Classroom.Classroom(f"classroom{classrooms+1}"))
 
     def get_classroom(self, name):
-        pass
+        for classroom in self.classrooms:
+            if classroom.name == name:
+                return classroom
+
+        # Classroom name not found.
+        return None
 

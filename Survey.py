@@ -1,9 +1,6 @@
 class Survey:
-    def __init__(self):
-        self.servey = {}
-
-    def set_answers(self, answers):
-        pass
+    def __init__(self, answers):
+        self.servey = answers
 
     def get_answers(self):
-        pass
+        return self.servey
