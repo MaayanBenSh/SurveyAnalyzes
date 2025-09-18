@@ -3,6 +3,13 @@ class School:
         self.middle_school = []
         self.high_school = []
 
+    def print_school(self):
+        for class_year in self.middle_school:
+            print(f"{class_year}")
+
+        for class_year in self.high_school:
+            print(f"{class_year}")
+
     def get_middle_school(self):
         return self.middle_school
 
